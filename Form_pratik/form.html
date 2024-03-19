@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Kullanıcı Bilgileri Formu</h1>
+    <form action="form_isleme.php" method="post">
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad" required>
+        <br>
+        <label for="soyad">Soyadınız:</label>
+        <input type="text" id="soyad" name="soyad" required>
+        <br>
+        <label for="eposta">E-posta Adresiniz:</label>
+        <input type="email" id="eposta" name="eposta" required>
+        <br>
+        <label for="parola">Parolanız:</label>
+        <input type="password" id="parola" name="parola" required>
+        <br>
+        <br>
+        <p>Cinsiyetiniz:</p>
+        <label for="erkek">Erkek</label>
+        <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+        <br>
+        <label for="kadin">Kadın</label>
+        <input type="radio" id="kadin" name="cinsiyet" value="kadin">
+        <br>
+        <br>
+        <p>Favori Meyveniz:</p>
+        <select name="meyve" id="meyve">
+            <option value="">Seçiniz...</option>
+            <option value="elma">Elma</option>
+            <option value="muz">Muz</option>
+            <option value="cilek">Çilek</option>
+        </select>
+        <br>
+        <br>
+        <label for="mesaj">Mesajınız:</label>
+        <br>
+        <textarea name="mesaj" id="mesaj" rows="5" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Gönder">
+    </form>
+    
+</body>
+</html>
