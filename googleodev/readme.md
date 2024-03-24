@@ -1,0 +1,1 @@
+Cloneladığım da böyle alt alta gözüküyodu kendim yapıyım dedim yine böyle gözüktü öyle yapmamama rağmen :D anlamadım sadece google'da böyle oldu.
