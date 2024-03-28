@@ -1,3 +1,3 @@
-![gitar.jpg](assets/gitar.jpg)
-![davul.jpg](assets/davul.jpg)
-![piyano.jpg](assets/piyano.jpg)
+[Anasayfa](assets/index.png)
+[about-us](assets/about-us.png)
+[product](assets/product.png)
